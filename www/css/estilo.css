@@ -1,0 +1,32 @@
+.calc{
+	width: 106%;
+  height: 780px;
+  margin-left: -6px;
+  margin-top: -40px; 
+	background-color: #FF8C00;
+}
+.botao{
+	font-size: 100px;
+	height: 80px;
+}
+.boto{
+  font-size: 70px;
+  height: 40px;
+  background: #00FF7F ;
+}
+
+.inp{
+	font-size: 1px;
+	height: 60px;
+	font-family: "OCR A Std";
+}
+#display{
+	background-color: #228B22;
+  height: 120px; 
+}
+.botaozao{
+	font-size: 23px;
+	height: 80px;
+  background-color:#fff;
+
+}
