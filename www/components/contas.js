@@ -105,5 +105,5 @@ var operador;
       }
       document.getElementById('display').value = result;
   });
-
+-
 }
