@@ -87,6 +87,13 @@ var operador;
       operador = "mult";
       document.getElementById('display').value = "";
   });
+  
+  var btnRaiz = document.getElementById('btnRaiz');
+  btnRaiz.addEventListener('click', function(){
+      valor1 = document.getElementById('display').value;
+      operador = "raiz";
+      document.getElementById('display').value = "";
+  });
 
   var btnIgual = document.getElementById('btnIgual');
   btnIgual.addEventListener('click', function(){
@@ -103,7 +110,10 @@ var operador;
       if(operador == "div"){
         result = parseInt(valor1) / parseInt (valor2);
       }
+      if(operador == "raiz"){
+        result = Math.sqrt(valor1);
+      }
       document.getElementById('display').value = result;
   });
--
+
 }

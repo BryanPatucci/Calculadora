@@ -1,32 +1,37 @@
 .calc{
-	width: 106,5%;
-  height: 780px;
-  margin-left: -6px;
+	width: 108%;
+  height: 850px;
+  margin-left: -15px;
   margin-top: -40px; 
-	background-color: #FF8C00;
-}
-.botao{
-	font-size: 100px;
-	height: 80px;
-}
-.boto{
-  font-size: 70px;
-  height: 40px;
-  background: #00FF7F ;
+  background-color: 	#2F4F4F;
+  color: #fff; 
 }
 
-.inp{
-	font-size: 1px;
-	height: 60px;
+.botao{
+  color: #fff;
+  background-color: 	#2F4F4F;
+	height: 80px;
+}
+
+.num{
+  margin-right: -20;
+  color: #fff;
 	font-family: "OCR A Std";
 }
+
 #display{
-	background-color: #228B22;
-  height: 120px; 
+  margin-left: 0px;
+  margin-top: -30px;
+	background-color: #2F4F4F;
+  height: 250px; 
+  width: 425px;
+  font-size: 35px;
+  color: #fff;
 }
+
 .botaozao{
-	font-size: 23px;
+  color: #fff;
 	height: 80px;
-  background-color:#fff;
+  background-color: #2F4F4F;
 
 }
