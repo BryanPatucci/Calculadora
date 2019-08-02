@@ -95,6 +95,13 @@ var operador;
       document.getElementById('display').value = "";
   });
 
+  var btnPorcentagem = document.getElementById('btnPorcentagem');
+  btnPorcentagem.addEventListener('click', function(){
+      valor1 = document.getElementById('display').value;
+      operador = "porcentagem";
+      document.getElementById('display').value = "";
+  });
+
   var btnIgual = document.getElementById('btnIgual');
   btnIgual.addEventListener('click', function(){
       valor2 = document.getElementById('display').value;
@@ -112,6 +119,9 @@ var operador;
       }
       if(operador == "raiz"){
         result = Math.sqrt(valor1);
+      }
+      if(operador == "porcentagem"){
+        result = (valor1 * valor2)/100;
       }
       document.getElementById('display').value = result;
   });
