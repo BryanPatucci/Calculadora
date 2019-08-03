@@ -8,23 +8,17 @@
 }
 
 .botao{
-  color: #fff;
-  background-color: 	#2F4F4F;
+  font-size: 100px;
+  background-color: #2F4F4F;
 	height: 80px;
 }
 
-.num{
-  margin-right: -20;
-  color: #fff;
-	font-family: "OCR A Std";
-}
-
 #display{
-  margin-left: 0px;
+  margin-left: -1.5px;
   margin-top: -30px;
 	background-color: #2F4F4F;
   height: 250px; 
-  width: 425px;
+  width: 427px;
   font-size: 35px;
   color: #fff;
 }
@@ -33,5 +27,69 @@
   color: #fff;
 	height: 80px;
   background-color: #2F4F4F;
-
 }
+
+
+
+#btnIgual{
+  margin-top: -10px;
+  font-size: 60px;
+}
+
+#btn1{
+  font-size: 30px;
+}
+#btn2{
+  font-size: 30px;
+}
+#btn3{
+  font-size: 30px;
+}
+#btn4{
+  font-size: 30px;
+}
+#btn5{
+  font-size: 30px;
+}
+#btn6{
+  font-size: 30px;
+}
+#btn7{
+  font-size: 30px;
+}
+#btn8{
+  font-size: 30px;
+}
+#btn9{
+  font-size: 30px;
+}
+#btn0{
+  font-size: 30px;
+}
+
+#btnMult{
+  font-size: 35px;
+}
+#btnSub{
+  font-size: 35px;
+}
+#btnDiv{
+  font-size: 35px;
+} 
+#btnPorcentagem{
+  font-size: 35px;
+}
+#btnSomar{
+  font-size: 35px;
+}
+#btnRaiz{
+  font-size: 35px;
+}
+#btnPontencia{
+  font-size: 35px;
+}
+
+#btnCE{
+  font-size: 35px;
+}
+
