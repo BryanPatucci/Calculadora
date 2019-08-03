@@ -102,6 +102,13 @@ var operador;
       document.getElementById('display').value = "";
   });
 
+   var btnPontencia = document.getElementById('btnPontencia');
+  btnPontencia.addEventListener('click', function(){
+      valor1 = document.getElementById('display').value;
+      operador = "potencia";
+      document.getElementById('display').value = "";
+  });
+
   var btnIgual = document.getElementById('btnIgual');
   btnIgual.addEventListener('click', function(){
       valor2 = document.getElementById('display').value;
@@ -122,6 +129,9 @@ var operador;
       }
       if(operador == "porcentagem"){
         result = (valor1 * valor2)/100;
+      }
+      if(operador == "potencia"){
+        result = valor1 * valor1;
       }
       document.getElementById('display').value = result;
   });
