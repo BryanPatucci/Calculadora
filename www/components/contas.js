@@ -128,10 +128,15 @@ var operador;
         result = Math.sqrt(valor1);
       }
       if(operador == "porcentagem"){
-        result = (valor1 * valor2)/100;
+        if(valor2 == 0){
+          result = valor1 /100;
+        }
+        else{
+          result = (valor1 * valor2)/100;
+        }
       }
       if(operador == "potencia"){
-        result = valor1 * valor1;
+        result = Math.pow(valor1, valor2);
       }
       document.getElementById('display').value = result;
   });
